@@ -1,0 +1,69 @@
+/* ./src/main.css */
+
+@import url("../src/assets/css/fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active--exact {
+  @apply text-rhino-600;
+}
+
+a {
+  @apply hover:text-rhino-600;
+}
+
+@layer components {
+  .img-cont img {
+    @apply w-full h-full object-cover;
+  }
+
+  .cta {
+    @apply px-4 py-2 rounded-md bg-gray-100 text-black hover:text-white hover:bg-gray-900 transition-all;
+  }
+
+  .form-input {
+    @apply outline-none;
+  }
+
+  .form-control {
+    @apply flex items-center w-fit gap-4 p-2;
+  }
+
+  .form-control .form-input {
+    @apply w-full;
+  }
+
+  .search-form-control {
+    @apply gap-8 w-full max-w-lg p-4 border border-rhino-800 rounded-md;
+  }
+}
+
+.site-main {
+  @apply min-h-[calc(100vh-4rem)];
+}
+
+.site-section {
+  @apply p-4 py-12;
+}
+
+.site-section--no-py {
+  @apply py-0;
+}
+
+.site-section > .wrapper {
+  @apply max-w-6xl mx-auto;
+}
+
+.section-header {
+  @apply py-8;
+}
+
+.section-header__caption {
+  @apply text-4xl text-rhino-800 font-bold;
+}
+
+.section-header__description {
+  @apply text-rhino-800;
+}
