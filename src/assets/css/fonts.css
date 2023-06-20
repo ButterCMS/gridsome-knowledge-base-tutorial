@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Millik";
+  src: local("Millik"), local("MillikRegular"),
+    url("../fonts/MillikRegular.woff2") format("woff2"),
+    url("../fonts/MillikRegular.woff") format("woff"),
+    url("../fonts/MillikRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: local("Moderat Bold"), local("Moderat-Bold"),
+    url("../fonts/Moderat-Bold.woff2") format("woff2"),
+    url("../fonts/Moderat-Bold.woff") format("woff"),
+    url("../fonts/Moderat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: local("Moderat Light"), local("Moderat-Light"),
+    url("../fonts/Moderat-Light.woff2") format("woff2"),
+    url("../fonts/Moderat-Light.woff") format("woff"),
+    url("../fonts/Moderat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: local("Moderat-Regular"),
+    url("../fonts/Moderat-Regular.woff2") format("woff2"),
+    url("../fonts/Moderat-Regular.woff") format("woff"),
+    url("../fonts/Moderat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: local("Moderat Medium"), local("Moderat-Medium"),
+    url("../fonts/Moderat-Medium.woff2") format("woff2"),
+    url("../fonts/Moderat-Medium.woff") format("woff"),
+    url("../fonts/Moderat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
